@@ -1,0 +1,13 @@
+vendor_name = ModelSim
+source_file = 1, C:/Laboratorio/Registradores/RegistradorD/registerd.vhd
+source_file = 1, C:/Laboratorio/Registradores/RegistradorD/Waveform.vwf
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Laboratorio/Registradores/RegistradorD/db/registerd.cbx.xml
+design_name = registerd
+instance = comp, \pout~output\, pout~output, registerd, 1
+instance = comp, \pin~input\, pin~input, registerd, 1
+instance = comp, \clk~input\, clk~input, registerd, 1
+instance = comp, \pout$latch\, pout$latch, registerd, 1
