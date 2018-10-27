@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Laboratorio/Xor/QAnd.vhd
+source_file = 1, C:/Laboratorio/Xor/QOr.vhd
+source_file = 1, C:/Laboratorio/Xor/QNot.vhd
+source_file = 1, C:/Laboratorio/Xor/QXor.vhd
+source_file = 1, C:/Laboratorio/Xor/Waveform.vwf
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Laboratorio/Xor/db/xor.cbx.xml
+design_name = QXor
+instance = comp, \i~output\, i~output, QXor, 1
+instance = comp, \l~input\, l~input, QXor, 1
+instance = comp, \m~input\, m~input, QXor, 1
+instance = comp, \G5|k~0\, G5|k~0, QXor, 1
