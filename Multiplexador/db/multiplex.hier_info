@@ -1,0 +1,10 @@
+|multiplex
+entrada1 => Mux0.IN0
+entrada2 => Mux0.IN1
+entrada3 => Mux0.IN2
+entrada4 => Mux0.IN3
+flag[0] => Mux0.IN5
+flag[1] => Mux0.IN4
+saida << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

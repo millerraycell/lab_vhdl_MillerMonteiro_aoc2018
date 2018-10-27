@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Laboratorio/Multiplexador/multiplex.vhd
+source_file = 1, C:/Laboratorio/Multiplexador/Waveform.vwf
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/18.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Laboratorio/Multiplexador/db/multiplex.cbx.xml
+design_name = multiplex
+instance = comp, \saida~output\, saida~output, multiplex, 1
+instance = comp, \entrada1~input\, entrada1~input, multiplex, 1
+instance = comp, \entrada2~input\, entrada2~input, multiplex, 1
+instance = comp, \entrada3~input\, entrada3~input, multiplex, 1
+instance = comp, \entrada4~input\, entrada4~input, multiplex, 1
+instance = comp, \flag[0]~input\, flag[0]~input, multiplex, 1
+instance = comp, \flag[1]~input\, flag[1]~input, multiplex, 1
+instance = comp, \Mux0~0\, Mux0~0, multiplex, 1
