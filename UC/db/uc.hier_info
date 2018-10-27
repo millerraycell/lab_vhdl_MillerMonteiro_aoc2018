@@ -1,0 +1,32 @@
+|uc
+entrada[0] => Equal0.IN4
+entrada[0] => Equal1.IN4
+entrada[0] => Equal2.IN4
+entrada[0] => Equal3.IN3
+entrada[1] => Equal0.IN3
+entrada[1] => Equal1.IN1
+entrada[1] => Equal2.IN3
+entrada[1] => Equal3.IN2
+entrada[2] => Equal0.IN2
+entrada[2] => Equal1.IN0
+entrada[2] => Equal2.IN0
+entrada[2] => Equal3.IN4
+entrada[3] => Equal0.IN1
+entrada[3] => Equal1.IN3
+entrada[3] => Equal2.IN2
+entrada[3] => Equal3.IN1
+entrada[4] => Equal0.IN0
+entrada[4] => Equal1.IN2
+entrada[4] => Equal2.IN1
+entrada[4] => Equal3.IN0
+regdest << regdest.DB_MAX_OUTPUT_PORT_TYPE
+origalu << origalu.DB_MAX_OUTPUT_PORT_TYPE
+memparareg << memparareg.DB_MAX_OUTPUT_PORT_TYPE
+escrevereg << escrevereg.DB_MAX_OUTPUT_PORT_TYPE
+lemem << lemem.DB_MAX_OUTPUT_PORT_TYPE
+escrevemem << escrevemem.DB_MAX_OUTPUT_PORT_TYPE
+branch << branch.DB_MAX_OUTPUT_PORT_TYPE
+aluop1 << aluop1.DB_MAX_OUTPUT_PORT_TYPE
+aluop0 << aluop0.DB_MAX_OUTPUT_PORT_TYPE
+
+

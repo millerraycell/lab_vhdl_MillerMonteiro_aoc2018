@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "regdest",
+					"strict" : false
+				},
+				{
+					"name" : "origalu",
+					"strict" : false
+				},
+				{
+					"name" : "memparareg",
+					"strict" : false
+				},
+				{
+					"name" : "escrevereg",
+					"strict" : false
+				},
+				{
+					"name" : "lemem",
+					"strict" : false
+				},
+				{
+					"name" : "escrevemem",
+					"strict" : false
+				},
+				{
+					"name" : "branch",
+					"strict" : false
+				},
+				{
+					"name" : "aluop1",
+					"strict" : false
+				},
+				{
+					"name" : "aluop0",
+					"strict" : false
+				},
+				{
+					"name" : "entrada[2]",
+					"strict" : false
+				},
+				{
+					"name" : "entrada[0]",
+					"strict" : false
+				},
+				{
+					"name" : "entrada[1]",
+					"strict" : false
+				},
+				{
+					"name" : "entrada[3]",
+					"strict" : false
+				},
+				{
+					"name" : "entrada[4]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
