@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/MobileAPP/Documents/Faculdade/3º Semestre/Arquitetura e Organização de Computadores/Laboratório/ULA/simulation/qsim
+Eula
+Z0 w1540606913
+Z1 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 PDz30Zoj;e1JEj1l7dCiT1
+Z3 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z4 DPx8 cyclonev 19 cyclonev_components 0 22 O_kVZAFaN7XDl67flUT[n1
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ;`SHL]^j4UaADA9ENAN^]0
+Z8 dC:/Laboratorio/ULA/simulation/qsim
+Z9 8ula.vho
+Z10 Fula.vho
+l0
+L36
+V2El=CDjJo990gkf3IBT[T0
+!s100 2CF4FF_Ygn<A;i8UT_I^d3
+Z11 OV;C;10.5b;63
+32
+Z12 !s110 1540606914
+!i10b 1
+Z13 !s108 1540606914.000000
+Z14 !s90 -work|work|ula.vho|
+Z15 !s107 ula.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 3 ula 0 22 2El=CDjJo990gkf3IBT[T0
+l275
+L45
+V:XUb`n=eS_<H]5fj6DYnI0
+!s100 ec0^kM85b<Hf0c18]5LO>3
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Eula_vhd_vec_tst
+Z18 w1540606911
+R5
+R6
+R8
+Z19 8Waveform.vwf.vht
+Z20 FWaveform.vwf.vht
+l0
+L31
+V@<?<V:3Y5l7YG:Mf^EYBl0
+!s100 dGakVFXQkA1e2T_?Ea?3D1
+R11
+32
+Z21 !s110 1540606915
+!i10b 1
+Z22 !s108 1540606915.000000
+Z23 !s90 -work|work|Waveform.vwf.vht|
+Z24 !s107 Waveform.vwf.vht|
+!i113 1
+R16
+R17
+Aula_arch
+R5
+R6
+Z25 DEx4 work 15 ula_vhd_vec_tst 0 22 @<?<V:3Y5l7YG:Mf^EYBl0
+l48
+L33
+Z26 Vm9I2TnD:E[YkWS^eH@`Dm0
+Z27 !s100 amK=z;LSJhU^:?5KTY@C>0
+R11
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R16
+R17
