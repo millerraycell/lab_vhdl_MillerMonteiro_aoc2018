@@ -1,0 +1,38 @@
+|contsinc
+j => registerjk:G0.ent1
+k => registerjk:G0.ent2
+clock => registerjk:G0.relogio
+clock => registerjk:G1.relogio
+clock => registerjk:G3.relogio
+z1 << registerjk:G0.saida
+z2 << registerjk:G1.saida
+z3 << registerjk:G3.saida
+
+
+|contsinc|registerjk:G0
+ent1 => Mux0.IN4
+ent2 => Mux0.IN5
+relogio => state.CLK
+saida <= state.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|contsinc|registerjk:G1
+ent1 => Mux0.IN4
+ent2 => Mux0.IN5
+relogio => state.CLK
+saida <= state.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|contsinc|QAnd:G2
+entrada1 => saida.IN0
+entrada2 => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|contsinc|registerjk:G3
+ent1 => Mux0.IN4
+ent2 => Mux0.IN5
+relogio => state.CLK
+saida <= state.DB_MAX_OUTPUT_PORT_TYPE
+
+
