@@ -72,23 +72,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "entrada2[0]",
-					"strict" : false
-				},
-				{
-					"name" : "flag[2]",
-					"strict" : false
-				},
-				{
 					"name" : "flag[0]",
-					"strict" : false
-				},
-				{
-					"name" : "entrada1[2]",
-					"strict" : false
-				},
-				{
-					"name" : "entrada1[0]",
 					"strict" : false
 				},
 				{
@@ -96,11 +80,19 @@
 					"strict" : false
 				},
 				{
-					"name" : "entrada2[1]",
+					"name" : "flag[2]",
 					"strict" : false
 				},
 				{
-					"name" : "entrada1[3]",
+					"name" : "entrada2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "entrada1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "entrada2[1]",
 					"strict" : false
 				},
 				{
@@ -112,7 +104,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "entrada1[4]",
+					"name" : "entrada1[2]",
 					"strict" : false
 				},
 				{
@@ -120,7 +112,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "entrada1[5]",
+					"name" : "entrada1[3]",
 					"strict" : false
 				},
 				{
@@ -128,7 +120,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "entrada1[6]",
+					"name" : "entrada1[4]",
 					"strict" : false
 				},
 				{
@@ -136,7 +128,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "entrada1[7]",
+					"name" : "entrada1[5]",
 					"strict" : false
 				},
 				{
@@ -144,7 +136,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "entrada1[8]",
+					"name" : "entrada1[6]",
 					"strict" : false
 				},
 				{
@@ -152,7 +144,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "entrada1[9]",
+					"name" : "entrada1[7]",
 					"strict" : false
 				},
 				{
@@ -160,7 +152,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "entrada1[10]",
+					"name" : "entrada1[8]",
 					"strict" : false
 				},
 				{
@@ -168,7 +160,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "entrada1[11]",
+					"name" : "entrada1[9]",
 					"strict" : false
 				},
 				{
@@ -176,7 +168,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "entrada1[12]",
+					"name" : "entrada1[10]",
 					"strict" : false
 				},
 				{
@@ -184,7 +176,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "entrada1[13]",
+					"name" : "entrada1[11]",
 					"strict" : false
 				},
 				{
@@ -192,7 +184,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "entrada1[14]",
+					"name" : "entrada1[12]",
 					"strict" : false
 				},
 				{
@@ -200,7 +192,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "entrada1[15]",
+					"name" : "entrada1[13]",
 					"strict" : false
 				},
 				{
@@ -208,7 +200,15 @@
 					"strict" : false
 				},
 				{
+					"name" : "entrada1[14]",
+					"strict" : false
+				},
+				{
 					"name" : "entrada2[15]",
+					"strict" : false
+				},
+				{
+					"name" : "entrada1[15]",
 					"strict" : false
 				}
 			]

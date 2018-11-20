@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ula
-Fri Oct 26 22:20:09 2018
+Mon Nov 19 21:31:45 2018
 Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Fri Oct 26 22:20:09 2018       ;
+; Analysis & Synthesis Status     ; Successful - Mon Nov 19 21:31:45 2018       ;
 ; Quartus Prime Version           ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
 ; Revision Name                   ; ula                                         ;
 ; Top-level Entity Name           ; ula                                         ;
@@ -165,23 +165,23 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                    ;
-+----------------------------------+-----------------+-----------------+------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path             ; Library ;
-+----------------------------------+-----------------+-----------------+------------------------------------------+---------+
-; ula.vhd                          ; yes             ; User VHDL File  ; C:/Laboratorio/ULA/ula.vhd               ;         ;
-; QAnd.vhd                         ; yes             ; User VHDL File  ; C:/Laboratorio/ULA/QAnd.vhd              ;         ;
-; QOr.vhd                          ; yes             ; User VHDL File  ; C:/Laboratorio/ULA/QOr.vhd               ;         ;
-; QNot.vhd                         ; yes             ; User VHDL File  ; C:/Laboratorio/ULA/QNot.vhd              ;         ;
-; QNand.vhd                        ; yes             ; User VHDL File  ; C:/Laboratorio/ULA/QNand.vhd             ;         ;
-; QXor.vhd                         ; yes             ; User VHDL File  ; C:/Laboratorio/ULA/QXor.vhd              ;         ;
-; Sum.vhd                          ; yes             ; User VHDL File  ; C:/Laboratorio/ULA/Sum.vhd               ;         ;
-; Sub.vhd                          ; yes             ; User VHDL File  ; C:/Laboratorio/ULA/Sub.vhd               ;         ;
-; QShiftd.vhd                      ; yes             ; User VHDL File  ; C:/Laboratorio/ULA/QShiftd.vhd           ;         ;
-; QShifte.vhd                      ; yes             ; User VHDL File  ; C:/Laboratorio/ULA/QShifte.vhd           ;         ;
-; Multiplexador12x1.vhd            ; yes             ; User VHDL File  ; C:/Laboratorio/ULA/Multiplexador12x1.vhd ;         ;
-+----------------------------------+-----------------+-----------------+------------------------------------------+---------+
++-----------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                        ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                 ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------+---------+
+; ula.vhd                          ; yes             ; User VHDL File  ; C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/ula.vhd               ;         ;
+; QAnd.vhd                         ; yes             ; User VHDL File  ; C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QAnd.vhd              ;         ;
+; QOr.vhd                          ; yes             ; User VHDL File  ; C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QOr.vhd               ;         ;
+; QNot.vhd                         ; yes             ; User VHDL File  ; C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QNot.vhd              ;         ;
+; QNand.vhd                        ; yes             ; User VHDL File  ; C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QNand.vhd             ;         ;
+; QXor.vhd                         ; yes             ; User VHDL File  ; C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QXor.vhd              ;         ;
+; Sum.vhd                          ; yes             ; User VHDL File  ; C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/Sum.vhd               ;         ;
+; Sub.vhd                          ; yes             ; User VHDL File  ; C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/Sub.vhd               ;         ;
+; QShiftd.vhd                      ; yes             ; User VHDL File  ; C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QShiftd.vhd           ;         ;
+; QShifte.vhd                      ; yes             ; User VHDL File  ; C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QShifte.vhd           ;         ;
+; Multiplexador12x1.vhd            ; yes             ; User VHDL File  ; C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/Multiplexador12x1.vhd ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------+---------+
 
 
 +-------------------------------------------------------------+
@@ -189,14 +189,14 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+---------------+
 ; Resource                                    ; Usage         ;
 +---------------------------------------------+---------------+
-; Estimate of Logic utilization (ALMs needed) ; 40            ;
+; Estimate of Logic utilization (ALMs needed) ; 38            ;
 ;                                             ;               ;
-; Combinational ALUT usage for logic          ; 65            ;
+; Combinational ALUT usage for logic          ; 64            ;
 ;     -- 7 input functions                    ; 0             ;
-;     -- 6 input functions                    ; 14            ;
-;     -- 5 input functions                    ; 16            ;
-;     -- 4 input functions                    ; 18            ;
-;     -- <=3 input functions                  ; 17            ;
+;     -- 6 input functions                    ; 12            ;
+;     -- 5 input functions                    ; 4             ;
+;     -- 4 input functions                    ; 30            ;
+;     -- <=3 input functions                  ; 18            ;
 ;                                             ;               ;
 ; Dedicated logic registers                   ; 0             ;
 ;                                             ;               ;
@@ -206,8 +206,8 @@ refer to the applicable agreement for further details.
 ;                                             ;               ;
 ; Maximum fan-out node                        ; flag[3]~input ;
 ; Maximum fan-out                             ; 34            ;
-; Total fan-out                               ; 385           ;
-; Average fan-out                             ; 2.28          ;
+; Total fan-out                               ; 364           ;
+; Average fan-out                             ; 2.17          ;
 +---------------------------------------------+---------------+
 
 
@@ -216,8 +216,8 @@ refer to the applicable agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+------------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name       ; Entity Name      ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+------------------+--------------+
-; |ula                       ; 65 (0)              ; 0 (0)                     ; 0                 ; 0          ; 52   ; 0            ; |ula                      ; ula              ; work         ;
-;    |Multiplexador9x1:G10|  ; 48 (48)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ula|Multiplexador9x1:G10 ; Multiplexador9x1 ; work         ;
+; |ula                       ; 64 (0)              ; 0 (0)                     ; 0                 ; 0          ; 52   ; 0            ; |ula                      ; ula              ; work         ;
+;    |Multiplexador9x1:G10|  ; 47 (47)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ula|Multiplexador9x1:G10 ; Multiplexador9x1 ; work         ;
 ;    |Sub:G9|                ; 17 (17)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ula|Sub:G9               ; Sub              ; work         ;
 +----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -244,18 +244,19 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; arriav_io_obuf        ; 16                          ;
-; arriav_lcell_comb     ; 65                          ;
+; arriav_lcell_comb     ; 64                          ;
 ;     arith             ; 17                          ;
 ;         1 data inputs ; 1                           ;
 ;         3 data inputs ; 16                          ;
-;     normal            ; 48                          ;
-;         4 data inputs ; 18                          ;
-;         5 data inputs ; 16                          ;
-;         6 data inputs ; 14                          ;
+;     normal            ; 47                          ;
+;         3 data inputs ; 1                           ;
+;         4 data inputs ; 30                          ;
+;         5 data inputs ; 4                           ;
+;         6 data inputs ; 12                          ;
 ; boundary_port         ; 52                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 4.40                        ;
-; Average LUT depth     ; 3.02                        ;
+; Max LUT depth         ; 3.60                        ;
+; Average LUT depth     ; 2.36                        ;
 +-----------------------+-----------------------------+
 
 
@@ -264,7 +265,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -274,68 +275,68 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Fri Oct 26 22:19:55 2018
+    Info: Processing started: Mon Nov 19 21:31:25 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ula -c ula
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file ula.vhd
-    Info (12022): Found design unit 1: ula-behavior File: C:/Laboratorio/ULA/ula.vhd Line: 15
-    Info (12023): Found entity 1: ula File: C:/Laboratorio/ULA/ula.vhd Line: 6
+    Info (12022): Found design unit 1: ula-behavior File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/ula.vhd Line: 15
+    Info (12023): Found entity 1: ula File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/ula.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file qand.vhd
-    Info (12022): Found design unit 1: QAnd-behavior File: C:/Laboratorio/ULA/QAnd.vhd Line: 11
-    Info (12023): Found entity 1: QAnd File: C:/Laboratorio/ULA/QAnd.vhd Line: 4
+    Info (12022): Found design unit 1: QAnd-behavior File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QAnd.vhd Line: 11
+    Info (12023): Found entity 1: QAnd File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QAnd.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file qor.vhd
-    Info (12022): Found design unit 1: QOr-behavior File: C:/Laboratorio/ULA/QOr.vhd Line: 11
-    Info (12023): Found entity 1: QOr File: C:/Laboratorio/ULA/QOr.vhd Line: 4
+    Info (12022): Found design unit 1: QOr-behavior File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QOr.vhd Line: 11
+    Info (12023): Found entity 1: QOr File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QOr.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file qnot.vhd
-    Info (12022): Found design unit 1: QNot-behavior File: C:/Laboratorio/ULA/QNot.vhd Line: 11
-    Info (12023): Found entity 1: QNot File: C:/Laboratorio/ULA/QNot.vhd Line: 4
+    Info (12022): Found design unit 1: QNot-behavior File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QNot.vhd Line: 11
+    Info (12023): Found entity 1: QNot File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QNot.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file qnor.vhd
-    Info (12022): Found design unit 1: QNor-behavior File: C:/Laboratorio/ULA/QNor.vhd Line: 11
-    Info (12023): Found entity 1: QNor File: C:/Laboratorio/ULA/QNor.vhd Line: 4
+    Info (12022): Found design unit 1: QNor-behavior File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QNor.vhd Line: 11
+    Info (12023): Found entity 1: QNor File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QNor.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file qnand.vhd
-    Info (12022): Found design unit 1: QNand-behavior File: C:/Laboratorio/ULA/QNand.vhd Line: 11
-    Info (12023): Found entity 1: QNand File: C:/Laboratorio/ULA/QNand.vhd Line: 4
+    Info (12022): Found design unit 1: QNand-behavior File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QNand.vhd Line: 11
+    Info (12023): Found entity 1: QNand File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QNand.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file qxor.vhd
-    Info (12022): Found design unit 1: QXor-behavior File: C:/Laboratorio/ULA/QXor.vhd Line: 11
-    Info (12023): Found entity 1: QXor File: C:/Laboratorio/ULA/QXor.vhd Line: 4
+    Info (12022): Found design unit 1: QXor-behavior File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QXor.vhd Line: 11
+    Info (12023): Found entity 1: QXor File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QXor.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file sum.vhd
-    Info (12022): Found design unit 1: Sum-behavior File: C:/Laboratorio/ULA/Sum.vhd Line: 13
-    Info (12023): Found entity 1: Sum File: C:/Laboratorio/ULA/Sum.vhd Line: 6
+    Info (12022): Found design unit 1: Sum-behavior File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/Sum.vhd Line: 13
+    Info (12023): Found entity 1: Sum File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/Sum.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file sub.vhd
-    Info (12022): Found design unit 1: Sub-behavior File: C:/Laboratorio/ULA/Sub.vhd Line: 13
-    Info (12023): Found entity 1: Sub File: C:/Laboratorio/ULA/Sub.vhd Line: 6
+    Info (12022): Found design unit 1: Sub-behavior File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/Sub.vhd Line: 13
+    Info (12023): Found entity 1: Sub File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/Sub.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file qshiftd.vhd
-    Info (12022): Found design unit 1: QShiftd-behavior File: C:/Laboratorio/ULA/QShiftd.vhd Line: 11
-    Info (12023): Found entity 1: QShiftd File: C:/Laboratorio/ULA/QShiftd.vhd Line: 4
+    Info (12022): Found design unit 1: QShiftd-behavior File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QShiftd.vhd Line: 11
+    Info (12023): Found entity 1: QShiftd File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QShiftd.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file qshifte.vhd
-    Info (12022): Found design unit 1: QShifte-behavior File: C:/Laboratorio/ULA/QShifte.vhd Line: 11
-    Info (12023): Found entity 1: QShifte File: C:/Laboratorio/ULA/QShifte.vhd Line: 4
+    Info (12022): Found design unit 1: QShifte-behavior File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QShifte.vhd Line: 11
+    Info (12023): Found entity 1: QShifte File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/QShifte.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file multiplexador12x1.vhd
-    Info (12022): Found design unit 1: Multiplexador9x1-Multiplexador9x1 File: C:/Laboratorio/ULA/Multiplexador12x1.vhd Line: 16
-    Info (12023): Found entity 1: Multiplexador9x1 File: C:/Laboratorio/ULA/Multiplexador12x1.vhd Line: 5
+    Info (12022): Found design unit 1: Multiplexador9x1-Multiplexador9x1 File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/Multiplexador12x1.vhd Line: 16
+    Info (12023): Found entity 1: Multiplexador9x1 File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/Multiplexador12x1.vhd Line: 5
 Info (12127): Elaborating entity "ula" for the top level hierarchy
-Info (12128): Elaborating entity "QAnd" for hierarchy "QAnd:G1" File: C:/Laboratorio/ULA/ula.vhd Line: 108
-Info (12128): Elaborating entity "QOr" for hierarchy "QOr:G2" File: C:/Laboratorio/ULA/ula.vhd Line: 109
-Info (12128): Elaborating entity "QNot" for hierarchy "QNot:G3" File: C:/Laboratorio/ULA/ula.vhd Line: 110
-Info (12128): Elaborating entity "QXor" for hierarchy "QXor:G4" File: C:/Laboratorio/ULA/ula.vhd Line: 111
-Info (12128): Elaborating entity "QNand" for hierarchy "QNand:G5" File: C:/Laboratorio/ULA/ula.vhd Line: 112
-Info (12128): Elaborating entity "QShiftd" for hierarchy "QShiftd:G6" File: C:/Laboratorio/ULA/ula.vhd Line: 113
-Info (12128): Elaborating entity "QShifte" for hierarchy "QShifte:G7" File: C:/Laboratorio/ULA/ula.vhd Line: 114
-Info (12128): Elaborating entity "Sum" for hierarchy "Sum:G8" File: C:/Laboratorio/ULA/ula.vhd Line: 115
-Info (12128): Elaborating entity "Sub" for hierarchy "Sub:G9" File: C:/Laboratorio/ULA/ula.vhd Line: 116
-Info (12128): Elaborating entity "Multiplexador9x1" for hierarchy "Multiplexador9x1:G10" File: C:/Laboratorio/ULA/ula.vhd Line: 117
+Info (12128): Elaborating entity "QAnd" for hierarchy "QAnd:G1" File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/ula.vhd Line: 108
+Info (12128): Elaborating entity "QOr" for hierarchy "QOr:G2" File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/ula.vhd Line: 109
+Info (12128): Elaborating entity "QNot" for hierarchy "QNot:G3" File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/ula.vhd Line: 110
+Info (12128): Elaborating entity "QXor" for hierarchy "QXor:G4" File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/ula.vhd Line: 111
+Info (12128): Elaborating entity "QNand" for hierarchy "QNand:G5" File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/ula.vhd Line: 112
+Info (12128): Elaborating entity "QShiftd" for hierarchy "QShiftd:G6" File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/ula.vhd Line: 113
+Info (12128): Elaborating entity "QShifte" for hierarchy "QShifte:G7" File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/ula.vhd Line: 114
+Info (12128): Elaborating entity "Sum" for hierarchy "Sum:G8" File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/ula.vhd Line: 115
+Info (12128): Elaborating entity "Sub" for hierarchy "Sub:G9" File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/ula.vhd Line: 116
+Info (12128): Elaborating entity "Multiplexador9x1" for hierarchy "Multiplexador9x1:G10" File: C:/lab_vhdl_MillerMonteiro_aoc2018/ULA/ula.vhd Line: 117
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 117 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 116 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 36 input pins
     Info (21059): Implemented 16 output pins
-    Info (21061): Implemented 65 logic cells
+    Info (21061): Implemented 64 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4875 megabytes
-    Info: Processing ended: Fri Oct 26 22:20:09 2018
-    Info: Elapsed time: 00:00:14
+    Info: Peak virtual memory: 4876 megabytes
+    Info: Processing ended: Mon Nov 19 21:31:45 2018
+    Info: Elapsed time: 00:00:20
     Info: Total CPU time (on all processors): 00:00:30
 
 
